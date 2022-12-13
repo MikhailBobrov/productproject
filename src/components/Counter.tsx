@@ -6,6 +6,7 @@ export const Counter = () => {
 
   const increment = () => {
     setCount((prevState: number) => prevState + 2);
+    // setCount(count + 1);
   };
 
   return (
