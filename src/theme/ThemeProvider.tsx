@@ -10,6 +10,7 @@ const ThemeProvider: React.FC = ({ children }) => {
 
   const defaultProps = useMemo(
     () => ({
+      // тут состояние прокидывается в провайдер
       theme: theme,
       setTheme: setTheme,
     }),
