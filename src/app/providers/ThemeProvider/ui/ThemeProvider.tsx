@@ -1,5 +1,9 @@
 import React, { useState, useMemo } from "react";
-import { LOCAL_STORAGE_THEME_KEY, ThemeContext, Theme } from "./ThemeContext";
+import {
+  LOCAL_STORAGE_THEME_KEY,
+  ThemeContext,
+  Theme,
+} from "../lib/ThemeContext";
 
 // преобразование к типу и берем данные из стоража
 const defaultTheme =
