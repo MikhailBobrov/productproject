@@ -1,0 +1,22 @@
+.Button {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.clear {
+  padding: 0;
+  // margin: 0;
+  background: none;
+  border: none;
+  outline: none;
+
+  // отвечает за анимацию
+  stroke-width: 1;
+  stroke-dasharray: 151;
+  stroke-dashoffset: 151;
+  transition: all 1s ease-in-out;
+}
+
+.clear:hover {
+  stroke-dashoffset: 0;
+}
